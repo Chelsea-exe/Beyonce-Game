@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(4, 146, 166);
     font-family: 'Oswald', sans-serif;
 }
-.beyonce-jumbotron {
-    background-color: rgb(255, 244, 180);
+.megan-jumbotron {
+    background-color: rgb(236, 250, 255);
 }
 h1,
 h2,
@@ -12,13 +12,22 @@ h4,
 h5 {
     font-family: 'Bebas Neue', cursive;
 }
-#beyonce-header {
+#megan-header {
     font-size: 60px;
 }
 #directions {
     font-size: 18px;
 }
-.beyonce-text {
+#megan-visible {
+    margin-top: 10px;
+}
+.sight {
+    margin-right: 20px;
+}
+#megan-move {
+    margin-top: 10px;
+}
+.megan-text {
     font-size: 18px;
 }
 .growth {
@@ -27,6 +36,34 @@ h5 {
 .shrink {
     margin-left: 20px;
 }
-#BLion{
-    height: 30vh;
+#megan-teal{
+    height: 32vh;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.left-button {
+    font-size: 22px;
+    padding: 3px 20px;
+    margin-left: -10px;
+}
+.up-button {
+    font-size: 22px;
+    padding: 3px 28px;
+    margin-left: 30px;
+}
+.right-button {
+    font-size: 22px;
+    padding: 3px 20px;
+    margin-left: 20px;
+}
+.down-button {
+    font-size: 22px;
+    padding: 3px 20px;
+    margin-left: 30px;
+}
+.controls {
+    margin: 10px 0 10px 0;
+}
+.control-center {
+    margin: 0 0 0 160px;
 }

@@ -6,37 +6,64 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css">
     <script src="https://code.jquery.com/jquery.js"></script>
-    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Oswald:200&display=swap" rel="stylesheet">
     <title>The Beyonce Game</title>
 </head>
 <body>
     <div class="container">
-        <div class="jumbotron beyonce-jumbotron">
+        <div class="jumbotron megan-jumbotron">
             <!-- <h1 class="display-4">Hello, world!</h1> -->
-            <h1 id="beyonce-header">BEYONCE</h1>
-            <p id="directions">Use the buttons to play music and control Beyonce.</p>
+            <h1 id="megan-header">MEGAN THEE STALLION</h1>
+            <hr>
+            <p id="directions">Use the buttons to play music and control Megan on the webpage.</p>
             <button type="button" class="btn btn-warning play-button btn-lg">Play Music</button>
             <button type="button" class="btn btn-secondary pause-button btn-lg">Pause Music</button>
           </div>
           <div class="row">
             <div class="col-lg-6">
-              <div class="card" id="beyonce-size">
+              <div class="card" id="megan-size">
                 <h3 class="card-header">Size Control</h3>
                 <div class="card-body">
-                  <p class="beyonce-text">Control the size of Beyonce</p>
+                  <p class="megan-text">Control the size of Megan</p>
+                  <hr>
                   <button type="button" class="btn btn-secondary btn-lg normal">Normal</button>
                   <button type="button" class="btn btn-success btn-lg growth">Grow</button>
                   <button type="button" class="btn btn-danger btn-lg shrink">Shrink</button>
                 </div>
-                
+            </div>
+            <div class="card" id="megan-visible">
+              <h3 class="card-header">Visiblity!</h3>
+              <div class="card-body">
+                <p class="megan-text">Make Megan invisible and visible</p>
+                <hr>
+                <button type="button" class="btn btn-dark btn-lg sight">Invisible</button>
+                <button type="button" class="btn btn-info btn-lg visible">Visible</button>
+
               </div>
-            </div>
-            <div class="col-lg-6 beyonce-image">
-                <img src="./assets/Beyonce/Beyonce-Lion.png" alt="Lion" id="BLion">
-              
-            </div>
           </div>
+            <div class="card" id="megan-move">
+              <h3 class="card-header">Move Megan</h3>
+              <div class="card-body">
+                <p class="megan-text">Move Megan around the page</p>
+                <hr>
+                <div class="control-center">
+                  <div class="controls">
+                    <button type="button" class="btn btn-dark up-button">Up</button>
+                  </div>
+                  <button type="button" class="btn btn-dark left-button">Left</button>
+                  <button type="button" class="btn btn-dark right-button">Right</button>
+                  <div class="controls">
+                    <button type="button" class="btn btn-dark down-button">Down</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </div>
+          <div class="col-lg-6 beyonce-image">
+            <img src="./assets/MeganTheeStallion/megan-teal.png" alt="Megan Colors" id="megan-teal">
+          
+        </div>
       </div>
 </body>
+<script src="./assets/game.js"></script>
 </html>
