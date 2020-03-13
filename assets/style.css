@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+}
+.beyonce-jumbotron {
+    background-color: rgb(255, 244, 180);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Bebas Neue', cursive;
+}
+#beyonce-header {
+    font-size: 60px;
+}
+#directions {
+    font-size: 18px;
+}
+.beyonce-text {
+    font-size: 18px;
+}
+.growth {
+    margin-left: 20px;
+}
+.shrink {
+    margin-left: 20px;
+}
+#BLion{
+    height: 30vh;
+}
